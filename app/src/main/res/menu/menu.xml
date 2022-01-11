@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_baseline_share_app_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/About"
+        android:title="About"
+        android:icon="@drawable/ic_baseline_share_app_24"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/AboutApp"
+                android:title="SHAYARI"/>
+
+            <item
+                android:id="@+id/AboutApp"
+                android:title="developer"/>
+
+        </menu>
+    </item>
+</menu>
